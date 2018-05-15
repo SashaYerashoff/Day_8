@@ -12,7 +12,9 @@ namespace Day_8
 			{
 				if (ekrans == "y")
 				{
+					Console.Beep();
 					Console.Clear();
+
 				}
 				//MasivaPiemers();
 				//Console.WriteLine("-------------------------------------");
@@ -24,8 +26,12 @@ namespace Day_8
 
 				Console.Write("vēlies turpināt? (y/n): ");
 				yesno = Console.ReadLine();
-				Console.Write("Vēlies attīrīt ekrānu? (y/n) ");
-				ekrans = Console.ReadLine();
+
+				if (yesno == "y")
+				{
+					Console.Write("Vēlies attīrīt ekrānu? (y/n) ");
+					ekrans = Console.ReadLine();
+				}
 			}
 			while (yesno == "y");
         }
