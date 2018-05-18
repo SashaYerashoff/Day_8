@@ -16,11 +16,11 @@ namespace Day_8
 					Console.Clear();
 
 				}
-				//MasivaPiemers();
-				//Console.WriteLine("-------------------------------------");
-				//NewStar();
-				//Console.WriteLine("-------------------------------------");
-				//DivdimensijuMasivs();
+				MasivaPiemers();
+				Console.WriteLine("-------------------------------------");
+				NewStar();
+				Console.WriteLine("-------------------------------------");
+				DivdimensijuMasivs();
 				Console.WriteLine("-------------------------------------");
 				MasivsArIevadu();
 
